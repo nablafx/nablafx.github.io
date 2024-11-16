@@ -1,5 +1,6 @@
 <html>
 
+
 <style>
 
     .nav-item {
@@ -112,65 +113,41 @@
 
   }
 
-  </style>
 
+</style>
 <div class="container">
+
   <nav class="nav-bar-default">
-    <a class="nav-item" href="/">Home</a>
-    <a class="nav-item current-page" href="/pages/career">Career</a>
+    <a class="nav-item current-page" href="/">Home</a>
+    <a class="nav-item" href="/pages/career">Career</a>
     <a class="nav-item" href="/pages/writing">Writing</a>
   </nav>
 
 
   <nav class="nav-bar-mobile">
     <a class="nav-item-opener" onclick="showCloseMenu()">Menu</a>
-    <a class="nav-item-mobile" href="/">Home</a>
-    <a class="nav-item-mobile current-page" href="/pages/career">Career</a>
+    <a class="nav-item-mobile current-page" href="/">Home</a>
+    <a class="nav-item-mobile" href="/pages/career">Career</a>
     <a class="nav-item-mobile" href="/pages/writing">Writing</a>
   </nav>
 
 
+# Greetings
+> Hej means hello in Swedish. In case you are curious 😉.
+<p style="font-size:18px; line-height:1.5; text-align:justify">Greetings from Fu Zhang,张辅 in chinese hanzi, or you may call me Jerry.  👋 I explore and research in the field of human-computer interactions with multidisciplinary experiences in computer science, electronic engineering and software engineering. I graduated from King's College London with a first BEng and a distinction MSc degree. Followed by a software engineer career at Huawei. I am currently employed in the Hong Kong Polytechnic University as a research assistant. 
+</p>
 
-# Career
+<h2> You may reach me at:</h2>
 
-### 💼 Work Experience
-<div style="display: flex; align-items: center; width: 100%; margin-top: 20px; margin-bottom: 20px; justify-content: flex-start;">
-    <img width="40" height="40" src="https://img.icons8.com/dusk/64/microscope.png" alt="microscope" style="margin-right: 10px;"//>
-    <div>
-        <h4 style="margin: 0;">Research Assistant in HCI/HCC at <a style="color: red;" href="https://polyu.edu.hk/en/">The Hong Kong Polytechnic University</a></h4>
-        <h5 style="margin: 5px 0 0 0; font-weight: normal; color: gray;">August 2024 - Present</h5>
-    </div>
-</div>
+[![logo](https://img.icons8.com/doodle/64/linkedin--v2.png ':size=70x70')](https://www.linkedin.com/in/fuzhang049/) &nbsp;&nbsp;
+[![logo](https://img.icons8.com/doodle/64/github--v1.png" ':size=70x70')]([/](https://github.com/nablafx)) &nbsp;&nbsp;
 
+<h2>Contact me:</h2>
 
-<div style="display: flex; align-items: center; width: 100%; margin-top: 20px; margin-bottom: 20px; justify-content: flex-start;">
-    <img width="40" height="40" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-programmer-computer-science-flaticons-lineal-color-flat-icons-3.png" alt="external-programmer-computer-science-flaticons-lineal-color-flat-icons-3" style="margin-right: 10px;"/>
-    <div>
-        <h4 style="margin: 0;">Software Engineer at <a style="color: red;" href="https://www.huawei.com/en/">Huawei Technologies Co., Ltd.</a></h4>
-        <h5 style="margin: 5px 0 0 0; font-weight: normal; color: gray;">December 2021 - May 2023</h5>
-    </div>
-</div>
+jerry-fu.zhang@polyu.edu.hk
 
-
-### 🧐Education
-<div style="display: flex; align-items: center; width: 100%; margin-top: 20px; margin-bottom: 20px; justify-content: flex-start;">
-    <img width="40" height="40" src="https://img.icons8.com/dotty/80/university.png" alt="university" style="margin-right: 10px;">
-    <div>
-        <h4 style="margin: 0;">Msc in Advanced Computing at <a style="color: red;"  href="https://www.kcl.ac.uk/">Kings College London</a></h4>
-        <h5 style="margin: 5px 0 0 0; font-weight: normal; color: gray;">Graduated with a distinction in 2021</h5>
-    </div>
-</div>
-<div style="display: flex; align-items: center; width: 100%; margin-top: 20px; margin-bottom: 20px; justify-content: flex-start;">
-    <img width="40" height="40" src="https://img.icons8.com/dotty/80/university.png" alt="university" style="margin-right: 10px;">
-    <div>
-        <h4 style="margin: 0;">BEng in Electronic and Information Engineering at <a style="color: red;" href="https://www.kcl.ac.uk/">Kings College London</a></h4>
-        <h5 style="margin: 5px 0 0 0; font-weight: normal; color: gray;">Graduated with First Class Honours in 2020 </h5>
-    </div>
-</div>
-
-
-
-</div>
+!> No spam, please!
 <footer style="font-size:12px; text-align:center; bottom:10px; width:100%;">(c) 2024 Fu Zhang. Icons by <a href="https://icons8.com/">Icons8</footer>
+
 </div>
 </html>
