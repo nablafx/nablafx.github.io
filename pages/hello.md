@@ -134,6 +134,7 @@
   </nav>
 
 
+
 # Greetings
 > Hej means hello in Swedish. In case you are curious 😉.
 <p style="font-size:18px; line-height:1.5; text-align:justify">Greetings from Fu Zhang,张辅 in chinese hanzi, or you may call me Jerry.  👋 I explore and research in the field of human-computer interactions with multidisciplinary experiences in computer science, electronic engineering and software engineering. I graduated from King's College London with a first BEng and a distinction MSc degree. Followed by a software engineer career at Huawei. I am currently employed in the Hong Kong Polytechnic University as a research assistant. 

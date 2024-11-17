@@ -9,7 +9,7 @@
     <img class="avatar" src="pics/longtime.jpg" alt="Logo">
   </a>
 
-  <h1 align="center" id="title-name">Hej! I am Fu Zhang ✨</h1>
+  <h1 align="center" id="title-name">Hej! This is Fu Zhang✨</h1>
 <h3 id="role-subtitle">
   <span class="role-item">
     <span class="icon">🔬</span>
@@ -35,7 +35,7 @@
 
 
 <h3 class="start-link">
-  <a><strong><span class="moving-symbol">↓</span></strong></a>
+  <a href="/pages/hello"><strong>click to expore<span class="moving-symbol">🔎</span></strong></a>
 </h3>
 
 </div>
@@ -60,7 +60,7 @@
     transform: translateY(0) ; /* Normal size */
   }
   50% {
-    transform: translateY(10px); /* Move right and stretch */
+    transform: translateY(3px); /* Move right and stretch */
   }
   100% {
     transform: translateY(0); /* Move back to normal */
@@ -132,8 +132,8 @@
   color: gray; 
 }
 .start-link{
-  font-size: 2.3em;
-  margin-top: 4em;
+  font-size: 1.3em;
+  margin-top: 8em;
   position: relative;
 }
 .role-item {
