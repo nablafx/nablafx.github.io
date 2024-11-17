@@ -35,7 +35,7 @@
 
 
 <h3 class="start-link">
-  <a href="/pages/hello"><strong>click to expore<span class="moving-symbol">🔎</span></strong></a>
+  <strong><a href="/pages/hello">click to expore</a><span class="moving-symbol">🔎</span></strong>
 </h3>
 
 </div>
@@ -54,6 +54,11 @@
   font-size: 2.3em;
   margin-top:3em;
   position: relative;
+}
+.start-link:hover{
+      font-size: 2.3em;
+      margin-top: 3em;
+      text-decoration: underline;
 }
 @keyframes move-and-stretch {
   0% {
@@ -124,7 +129,7 @@
     }
     .start-link:hover{
       font-size: 1.3em;
-      margin-top: 3em;
+      margin-top: 8em;
       text-decoration: underline;
     }
     #role-subtitle {
