@@ -116,7 +116,7 @@
   <div class="container">
 
   <nav class="nav-bar-default">
-    <a class="nav-item" href="/" onclick="startTyper()">Home</a>
+    <a class="nav-item" href="/">Home</a>
     <a class="nav-item" href="/pages/hello">Intro</a>
     <a class="nav-item" href="/pages/career">Career</a>
     <a class="nav-item current-page" href="/pages/writing">Writing</a>
@@ -126,7 +126,7 @@
   <nav class="nav-bar-mobile">
     <a class="nav-item-opener" onclick="showCloseMenu()">Menu</a>
     <a class="nav-item-mobile" href="/">Home</a>
-    <a class="nav-item-mobile" href="/pages/hello">Intro</a>
+    <a class="nav-item" href="/pages/hello">Intro</a>
     <a class="nav-item-mobile" href="/pages/career">Career</a>
     <a class="nav-item-mobile current-page" href="/pages/writing">Writing</a>
   </nav>

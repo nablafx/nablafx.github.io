@@ -134,17 +134,11 @@
   </nav>
 
 
+
 # Greetings
 > Hej means hello in Swedish. In case you are curious 😉.
 <p style="font-size:18px; line-height:1.5; text-align:justify">Greetings from Fu Zhang,张辅 in chinese hanzi, or you may call me Jerry.  👋 I explore and research in the field of human-computer interactions with multidisciplinary experiences in computer science, electronic engineering and software engineering. I graduated from King's College London with a first BEng and a distinction MSc degree. Followed by a software engineer career at Huawei. I am currently employed in the Hong Kong Polytechnic University as a research assistant. 
 </p>
-<br/>
-<div class="fact-squre" style="display: flex; width: 30%; justify-content: space-around; flex-wrap: wrap;"> <!-- Use Flexbox -->
-    <div class="card" style="flex: 1 0 230px; margin-right: 20px; margin-bottom: 20px;"> <!-- Ensures a minimum width and margin -->
-        <h1>Personality type</h1>
-        <h3><a style="color:purple" href="https://www.16personalities.com/profiles/56c82721b9666">Commander (ENTJ-A) ></a></h3>
-    </div>
-</div>
 
 <h2> You may reach me at:</h2>
 
