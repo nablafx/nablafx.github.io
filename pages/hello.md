@@ -8,6 +8,7 @@
         font-size: 18px;
         text-decoration: none;
         display:inline-block;
+        
     }
     .nav-item:hover {
         margin-right: 20px;

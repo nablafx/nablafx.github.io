@@ -109,6 +109,17 @@
         margin-top: 10px; margin-bottom: 10px; width: 100%;
         margin-left: 0px; margin-right: 0px;
       }
+    h4 {
+        font-size: 1em; /* Decrease font size for smaller screens */
+    }
+    h5 {
+        font-size: 0.9em; /* Decrease font size for smaller screens */
+    }
+    img {
+        width: 30px; /* Reduce icon size for smaller screens */
+        height: 30px;
+    }
+}
 
   }
 
@@ -126,7 +137,7 @@
   <nav class="nav-bar-mobile">
     <a class="nav-item-opener" onclick="showCloseMenu()">Menu</a>
     <a class="nav-item-mobile" href="/">Home</a>
-    <a class="nav-item" href="/pages/hello">Intro</a>
+    <a class="nav-item-mobile" href="/pages/hello">Intro</a>
     <a class="nav-item-mobile current-page" href="/pages/career">Career</a>
     <a class="nav-item-mobile" href="/pages/writing">Writing</a>
   </nav>
@@ -136,20 +147,37 @@
 # Career
 
 ###  Work Experience
-<div style="display: flex; align-items: center; width: 100%; margin-top: 20px; margin-bottom: 20px; justify-content: flex-start;">
-    <img width="40" height="40" src="https://img.icons8.com/dusk/64/microscope.png" alt="microscope" style="margin-right: 10px;"//>
-    <div>
-        <h4 style="margin: 0;">Research Assistant in HCI/HCC at <a style="color: red;" href="https://polyu.edu.hk/en/">The Hong Kong Polytechnic University</a></h4>
-        <h5 style="margin: 5px 0 0 0; font-weight: normal; color: gray;">August 2024 - Present</h5>
+<div style="display: flex; flex-direction: column; align-items: flex-start; width: 100%; margin: 20px 0;">
+    <div style="display: flex; align-items: center; width: 100%; justify-content: space-between;">
+        <div style="display: flex; align-items: center;">
+            <img width="40" height="40" src="https://img.icons8.com/dusk/64/microscope.png" alt="microscope" style="margin-right: 10px;"/>
+            <div>
+                <h4 style="margin: 0; font-size: 1.2em;">Research Assistant in HCI/HCC</h4>
+                <h5 style="margin: 5px 0 0 0; font-weight: normal; color: gray;">
+                    <a style="color: #A50000; text-decoration: none;" href="https://polyu.edu.hk/en/">The Hong Kong Polytechnic University</a>
+                </h5>
+            </div>
+        </div>
+        <h4 style="margin: 5px 0 0 0; font-weight: normal; color: gray; text-align: right;">August 2024 - Present</h4>
     </div>
 </div>
 
+<div style="display: flex; flex-direction: column; align-items: flex-start; width: 100%; margin: 20px 20px; border-left: 2px solid #ccc; height: 20px;">
 
-<div style="display: flex; align-items: center; width: 100%; margin-top: 20px; margin-bottom: 20px; justify-content: flex-start;">
-    <img width="40" height="40" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-programmer-computer-science-flaticons-lineal-color-flat-icons-3.png" alt="external-programmer-computer-science-flaticons-lineal-color-flat-icons-3" style="margin-right: 10px;"/>
-    <div>
-        <h4 style="margin: 0;">Software Engineer at <a style="color: red;" href="https://www.huawei.com/en/">Huawei Technologies Co., Ltd.</a></h4>
-        <h5 style="margin: 5px 0 0 0; font-weight: normal; color: gray;">December 2021 - May 2023</h5>
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: flex-start; width: 100%; margin: 20px 0;">
+    <div style="display: flex; align-items: center; width: 100%; justify-content: space-between;">
+        <div style="display: flex; align-items: center;">
+            <img width="40" height="40" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-programmer-computer-science-flaticons-lineal-color-flat-icons-3.png" alt="microscope" style="margin-right: 10px;"/>
+            <div>
+                <h4 style="margin: 0; font-size: 1.2em;">Software Engineer</h4>
+                <h5 style="margin: 5px 0 0 0; font-weight: normal; color: gray;">
+                    <a style="color: #E60000; text-decoration: none;" href="https://www.huawei.com/en/">Huawei Technologies Co., Ltd.</a>
+                </h5>
+            </div>
+        </div>
+        <h4 style="margin: 5px 0 0 0; font-weight: normal; color: gray; text-align: right;">December 2021 - May 2023</h4>
     </div>
 </div>
 
@@ -162,6 +190,10 @@
         <h5 style="margin: 5px 0 0 0; font-weight: normal; color: gray;">Graduated with a distinction in 2021</h5>
     </div>
 </div>
+
+
+
+
 <div style="display: flex; align-items: center; width: 100%; margin-top: 20px; margin-bottom: 20px; justify-content: flex-start;">
     <img width="40" height="40" src="https://img.icons8.com/dotty/80/university.png" alt="university" style="margin-right: 10px;">
     <div>
@@ -173,6 +205,8 @@
 
 
 </div>
-<footer style="font-size:12px; text-align:center; bottom:10px; width:100%;">(c) 2024 Fu Zhang. Icons by <a href="https://icons8.com/">Icons8</footer>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<footer style="font-size:12px; text-align:center; bottom:1px; width:100%;">(c) 2024 Fu Zhang. Icons by <a href="https://icons8.com/">Icons8</footer>
 </div>
+
 </html>
