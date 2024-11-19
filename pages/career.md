@@ -108,6 +108,7 @@
     .container {
         margin-top: 10px; margin-bottom: 10px; width: 100%;
         margin-left: 0px; margin-right: 0px;
+        float:right;
       }
     h4 {
         font-size: 1em; /* Decrease font size for smaller screens */
@@ -127,19 +128,17 @@
 
 <div class="container">
   <nav class="nav-bar-default">
-    <a class="nav-item" href="/">Home</a>
+    <a class="nav-item" href="/">Cover</a>
     <a class="nav-item" href="/pages/hello">Intro</a>
     <a class="nav-item current-page" href="/pages/career">Career</a>
-    <a class="nav-item" href="/pages/writing">Writing</a>
   </nav>
 
 
   <nav class="nav-bar-mobile">
     <a class="nav-item-opener" onclick="showCloseMenu()">Menu</a>
-    <a class="nav-item-mobile" href="/">Home</a>
+    <a class="nav-item-mobile" href="/">Cover</a>
     <a class="nav-item-mobile" href="/pages/hello">Intro</a>
     <a class="nav-item-mobile current-page" href="/pages/career">Career</a>
-    <a class="nav-item-mobile" href="/pages/writing">Writing</a>
   </nav>
 
 
