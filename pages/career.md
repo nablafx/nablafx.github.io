@@ -135,7 +135,7 @@
 
 # Career
 
-### 💼 Work Experience
+###  Work Experience
 <div style="display: flex; align-items: center; width: 100%; margin-top: 20px; margin-bottom: 20px; justify-content: flex-start;">
     <img width="40" height="40" src="https://img.icons8.com/dusk/64/microscope.png" alt="microscope" style="margin-right: 10px;"//>
     <div>
@@ -154,7 +154,7 @@
 </div>
 
 
-### 🧐Education
+### Education
 <div style="display: flex; align-items: center; width: 100%; margin-top: 20px; margin-bottom: 20px; justify-content: flex-start;">
     <img width="40" height="40" src="https://img.icons8.com/dotty/80/university.png" alt="university" style="margin-right: 10px;">
     <div>
