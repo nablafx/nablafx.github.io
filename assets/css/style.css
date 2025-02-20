@@ -101,11 +101,11 @@
    * shadow
    */
   
-  --shadow-1: -4px 8px 24px hsla(160, 20%, 80%, 0.842);
-  --shadow-2: 0 16px 30px hsla(160, 20%, 80%, 0.842);
-  --shadow-3: 0 16px 40px hsla(160, 20%, 80%, 0.842);
-  --shadow-4: 0 25px 50px hsla(160, 20%, 80%, 0.842);
-  --shadow-5: 0 24px 80px hsla(160, 20%, 80%, 0.842);
+  --shadow-1: -4px 8px 24px hsla(158, 42%, 76%, 0.685);
+  --shadow-2: 0 16px 30px hsla(158, 42%, 76%, 0.685);
+  --shadow-3: 0 16px 40px hsla(158, 42%, 76%, 0.685);
+  --shadow-4: 0 25px 50px hsla(158, 42%, 76%, 0.685);
+  --shadow-5: 0 24px 80px hsla(158, 42%, 76%, 0.685);
 
   /**
    * transition
