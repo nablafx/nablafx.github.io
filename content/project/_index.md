@@ -1,4 +1,4 @@
 ---
 title: "Projects"
-description: "Datasets on various philological topics."
+description: "Projects I have worked on"
 ---

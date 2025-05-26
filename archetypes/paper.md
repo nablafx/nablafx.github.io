@@ -1,22 +1,20 @@
 ---
-title: "Paper Title (less than 70 characters)" 
-date: 2012-06-01
-url: /paper/
-aliases: 
-    - /old_url.html
-tags: ["keyword 1","keyword 2","keyword 3","keyword 4","keyword 5","keyword 6","keyword 7","keyword 8"]
-author: ["Paper Author 1", "Paper Author 2"]
-me: "Paper Author 1"
-publisher: "Journal of XXX"
-description: "Paper description for search engines (less than 155 characters)" 
-summary: "Paper summary for list page (less than 265 characters)"
-cover:
-    image: "paper_figure.png"
-    alt: "Figure title (preferably 1280x720 pixels)"
-    relative: true
+title: "Paper title"
+nature: "paper"
+type: "journal"
+date: 2013-01-15
+tags: ["Tag"]
+author: ["People1","People2","People3","People4","People5","People6","People7"]
+me: "People4"
+publisher: "publisher"
+description: "description"
+link: ""
+bibtex: ""
+code: ""
+summary: "Random." 
 editPost:
-    URL: "https://doi.org/paper_doi"
-    Text: "Journal/Repository Name"
+    URL: "/"
+    Text: "Journal of Random Test Stuff"
 
 ---
 

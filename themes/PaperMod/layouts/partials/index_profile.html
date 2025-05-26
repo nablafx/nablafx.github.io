@@ -35,7 +35,8 @@
               张 <rp>(</rp><rt>ZHANG</rt><rp>)</rp> 辅 <rp>(</rp><rt>FU</rt><rp>)</rp>
           </ruby>
         </h1>
-        <span>{{ .subtitle | markdownify }}</span>
+        <span style="text-align:left;">{{ .subtitle | markdownify }}</span>
+        <span style="text-align: left;"> 💼I am currently an <span class="emphasis">Research Assistant</span> at <a href="https://polyu.edu.hk/en/" class="emphasis">Department of Computing</a> in <a href="https://www.polyu.edu.hk/" class="emphasis">The Hong Kong Polytechnic University</a></span>
         {{- partial "social_icons.html" -}}
 
         {{- with .buttons }}
@@ -44,14 +45,6 @@
             <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
                 <span class="button-inner">
                     {{ .name }}
-                    {{- if (findRE "://" .url) }}&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
-                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
-                    {{- end }}
                 </span>
             </a>
             {{- end }}

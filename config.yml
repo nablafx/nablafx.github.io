@@ -15,8 +15,8 @@ menu:
         - name: About
           url: about/
           weight: 1 
-        - name: Papers
-          url: papers/
+        - name: Publications
+          url: publications/
           weight: 2
         - name: Projects
           url: project/
@@ -43,7 +43,7 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["about","papers","project","archive","tags"]
+    MainSections: ["about","publications","project","archive","tags"]
     ShowToc: false
     disableScrollToTop: false
     TocOpen: true
@@ -55,7 +55,7 @@ params:
           enabled: true
           title: 张辅
           subtitle: "Greetings from Zhang Fu👋 (family name in front), You can just call me Jerry.  
-             I explore and research in the field of human-computer interactions towards clinical applications. "
+             I explore and research in the field of human-computer interactions towards medical and healthcare applications. "
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
@@ -63,8 +63,8 @@ params:
 
             - name: About
               url: about/
-            - name: Papers
-              url: papers/
+            - name: Publications
+              url: Publications/
             - name: Projects
               url: project/ 
             - name: Archive
@@ -82,9 +82,7 @@ params:
         - name: LinkedIn
           url: https://www.linkedin.com/in/fuzhang049/
         - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: https://www.polyu.edu.hk/comp/people/research-staff-and-students/
         # - name: Google Scholar
         #   url: 
         - name: GitHub

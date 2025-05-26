@@ -1,5 +1,33 @@
 {{- $scratch := newScratch }}
 
-  <div class="entry-publisher ">
-    {{.Params.publisher}}
-  </div>
+<div class="entry-publisher ">
+  {{.Params.publisher}}
+</div>
+
+<div class="paper-buttons">
+  <a href="{{.Params.link}}" class="paper-button" style="border-left: 8px solid blue ;" href="/"
+    rel="noopener" title="Link">
+    <span class="paper-button-inner">
+      Link
+    </span>
+  </a>
+  <a class="paper-button" style="border-left: 8px solid #00A36C ;" href="/"
+    rel="noopener" title="BibTex">
+    <span class="paper-button-inner">
+      BibTex
+    </span>
+  </a>
+    <a class="paper-button" style="border-left: 8px solid #f1948a ;" href="/"
+    rel="noopener" title="Data">
+    <span class="paper-button-inner">
+      Data
+    </span>
+  </a>
+  <a class="paper-button" style="border-left: 8px solid black ;" href="/"
+    rel="noopener" title="Code & Implementations">
+    <span class="paper-button-inner">
+      Code & Implementations
+    </span>
+  </a>
+
+</div>
