@@ -15,18 +15,15 @@ menu:
         - name: About
           url: about/
           weight: 1 
-        - name: Publications
-          url: publications/
-          weight: 2
+        # - name: Publications
+        #   url: publication/
+        #   weight: 2
         - name: Projects
           url: project/
           weight: 3
-        - name: Archive
-          url: archive/
-          weight: 4
         - name: Tags
           url: tags/
-          weight: 5
+          weight: 4
 
 params:
     description: "This is me"
@@ -40,10 +37,10 @@ params:
     disableSpecial1stPost: false
     disableAnchoredHeadings: true
     ShowPostNavLinks: false
-    ShowBreadCrumbs: true
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["about","publications","project","archive","tags"]
+    MainSections: ["about","publication","project","tags"]
     ShowToc: false
     disableScrollToTop: false
     TocOpen: true
@@ -56,19 +53,17 @@ params:
           title: 张辅
           subtitle: "Greetings from Zhang Fu👋 (family name in front), You can just call me Jerry.  
              I explore and research in the field of human-computer interactions towards medical and healthcare applications. "
-          imageUrl: "picture.jpeg"
+          imageUrl: "picture.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
 
             - name: About
               url: about/
-            - name: Publications
-              url: Publications/
+            # - name: Publications
+            #   url: Publication/
             - name: Projects
               url: project/ 
-            - name: Archive
-              url: archive/
             - name: Tags
               url: tags/
 
