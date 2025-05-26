@@ -1,5 +1,5 @@
 # Website
-Built based on [pmichaillat/hugo-website](https://github.com/pmichaillat/hugo-website) with some modifications.
+Built based on [pmichaillat/hugo-website](https://github.com/pmichaillat/hugo-website) with some modifications and changes.
 
 
 
