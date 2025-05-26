@@ -18,14 +18,15 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
-
+        - name: Projects
+          url: project/
+          weight: 3
         - name: Archive
           url: archive/
-          weight: 3
-
+          weight: 4
         - name: Tags
           url: tags/
-          weight: 4
+          weight: 5
 
 params:
     description: "This is me"
@@ -35,16 +36,16 @@ params:
     hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
+    ShowReadingTime: true
+    disableSpecial1stPost: false
     disableAnchoredHeadings: true
     ShowPostNavLinks: false
-    ShowBreadCrumbs: false
+    ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["about","papers","project","archive","tags"]
     ShowToc: false
-    disableScrollToTop: true
+    disableScrollToTop: false
     TocOpen: true
     ShowWordCount: true
     UseHugoToc: true
@@ -64,10 +65,13 @@ params:
               url: about/
             - name: Papers
               url: papers/
-            - name: Tags
-              url: tags/
+            - name: Projects
+              url: project/ 
             - name: Archive
               url: archive/
+            - name: Tags
+              url: tags/
+
 
 
     socialIcons:
