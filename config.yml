@@ -1,0 +1,110 @@
+baseURL: "https://pascalmichaillat.org/hugo-website/" 
+title: Jerry,Fu Zhang
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: About
+          url: about/
+          weight: 1 
+        - name: Papers
+          url: papers/
+          weight: 2
+
+        - name: Archive
+          url: archive/
+          weight: 3
+
+        - name: Tags
+          url: tags/
+          weight: 4
+
+params:
+    description: "This is me"
+    author: Jerry Fu Zhang
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["books","courses","papers","data"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: true
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: 张辅
+          subtitle: "Greetings from Zhang Fu👋 (family name in front), You can just call me Jerry.  
+             I explore and research in the field of human-computer interactions towards clinical applications. "
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+
+            - name: About
+              url: about/
+            - name: Papers
+              url: papers/
+            - name: Tags
+              url: tags/
+            - name: Archive
+              url: archive/
+
+
+    socialIcons:
+        # - name: CV
+        #   url: cv.pdf
+        - name: Email
+          url: mailto:jerry-fu.zhang@polyu.edu.hk
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/fuzhang049/
+        - name: Location
+          url: location/
+        - name: Office Hours
+          url: officehours/
+        # - name: Google Scholar
+        #   url: 
+        - name: GitHub
+          url: https://github.com/nablafx
+ 
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Jerry,Fu Zhang"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

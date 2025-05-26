@@ -1,0 +1,15 @@
+{{- if or .Params.author site.Params.author }}
+{{- $author := (.Params.author | default site.Params.author) }}
+{{- $author_type := (printf "%T" $author) }}
+{{- $me := .Params.me }}
+{{- if (or (eq $author_type "[]string") (eq $author_type "[]interface {}")) }}
+{{- range $index, $name := $author }}
+{{- if eq $name $me }}
+<strong>{{ $name }}</strong>{{ else }}{{ $name }}{{ end }}
+{{- if lt $index (sub (len $author) 1) }},&thinsp;{{ end }}
+{{- end }}
+{{- else }}
+{{- if eq $author $me }}
+<strong>{{ $author }}</strong>{{ else }}{{ $author }}{{ end }}
+{{- end }}
+{{- end -}}
