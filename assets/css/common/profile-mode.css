@@ -1,32 +1,91 @@
 .buttons,
-.main .profile {
+.main  {
     display: flex;
-    justify-content: left;
-}
-.main .profile {
-    align-items: center;
-    min-height: calc(100vh - var(--footer-height) - (var(--gap) * 2));
-    font-size: var(--homesize);
-    line-height: var(--lineheight);
-    padding: var(--gap);
+    justify-content: center;
 }
 
-.profile .profile_inner {
+.profile-container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding-top: 20px; /* Add some padding to move the profile card up slightly */
 }
 
-.profile .profile_inner h1 {
-    font-size: 2.5rem;
-    white-space: nowrap;
+
+/* Center the profile card horizontally and vertically */
+.profile {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding-top: 20px; /* Add some padding to move the profile card up slightly */
 }
 
-.profile img {
-    border-radius: 50%;
-    border: 1px solid var(--tertiary);
+.profile_outer {
+    display: flex;
+    align-items: flex-start; /* Aligns items vertically at the start */
+    background-color: transparent; /* Background color for the rectangle */
+    padding: 20px; /* Padding inside the rectangle */
+    border-radius: 8px; /* Rounded corners for the rectangle */
+    max-width: 600px; /* Maximum width of the rectangle */
+    margin: 0 auto; /* Centers the rectangle horizontally */
 }
+
+.profile_image {
+ position: relative;
+    width: 200px;
+    height: 200px;
+    background: url("static/images/profile.jpg");
+    margin-right: 20px;
+    clip-path: polygon(100% 83%, 78% 3%, 0 51%);
+}
+
+.profile_details {
+    flex-grow: 1; /* Ensures the details section takes up the remaining space */
+}
+
+.profile_subtitle {
+    font-size: 1.2em; /* Font size for the subtitle */
+    display: block; /* Ensures the subtitle is a block element */
+    margin-bottom: 10px; /* Space below the subtitle */
+}
+
+.profile_job {
+    font-size: 1em; /* Font size for the job description */
+    display: block; /* Ensures the job description is a block element */
+    margin-bottom: 10px; /* Space below the job description */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .profile_outer {
+        flex-direction: column; /* Stack image and details vertically */
+        align-items: center; /* Center align items horizontally */
+    }
+
+    .profile_image {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 20px; /* Add margin below the image */
+    }
+
+    .profile_details {
+        text-align: center; /* Center align text in details */
+    }
+
+    .buttons {
+        width: 100%; /* Make buttons container full width */
+        max-width: 600px; /* Maximum width of the buttons container */
+        flex-direction: column; /* Arrange buttons in a row */
+        justify-content: center; /* Center align buttons horizontally */
+        margin-top: 20px; /* Space above the buttons */
+    }
+
+    .profile_buttons{
+        width: 100%;
+    }
+    
+}
+
 
 .buttons {
     flex-wrap: wrap;
@@ -40,9 +99,8 @@
     padding: 10px;
 }
 
-
 .paper-button {
-    background: var(--entry);
+    background: var(--border);
     border-radius: var(--radius);
     margin: 6px 6px 6px 0px;
     padding-left: 10px;
@@ -53,14 +111,32 @@
     border-bottom: none;
 }
 
+.paper-button-link:hover {
+    background: rgb(212, 212, 255);
+}
+
+.paper-button-bibtex:hover {
+    background: rgb(231, 249, 231);
+}
+
+.paper-button-data:hover {
+    background: rgb(255, 227, 195);
+}
+
+.paper-button-code:hover {
+    background: rgb(163, 163, 163);
+}
+
 .paper-buttons {
     margin-top: 10px;
     flex-wrap: wrap;
 }
 
+
+
 .paper-button-inner {
     font-size: 18px;
-    color: var(--theme);
+    color: var(--primary);
 }
 
 

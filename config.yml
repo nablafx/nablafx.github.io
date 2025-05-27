@@ -12,11 +12,11 @@ taxonomies:
 
 menu:
     main:
-        - name: About
+        - name: More about me
           url: about/
           weight: 1 
         # - name: Publications
-        #   url: publication/
+        #   url: publications/
         #   weight: 2
         - name: Projects
           url: project/
@@ -51,17 +51,17 @@ params:
     profileMode:
           enabled: true
           title: 张辅
-          subtitle: "Greetings from Zhang Fu👋 (family name in front), You can just call me Jerry.  
+          subtitle: "👋 Greetings from Zhang Fu or Jerry.  
              I explore and research in the field of human-computer interactions towards medical and healthcare applications. "
           imageUrl: "picture.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
 
-            - name: About
+            - name: More about me
               url: about/
             # - name: Publications
-            #   url: Publication/
+            #   url: Publications/
             - name: Projects
               url: project/ 
             - name: Tags
