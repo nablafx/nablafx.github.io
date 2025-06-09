@@ -51,8 +51,7 @@ params:
     profileMode:
           enabled: true
           title: 张辅
-          subtitle: "👋 Greetings from Zhang Fu or Jerry.  
-             I explore and research in the field of human-computer interactions towards medical and healthcare applications. "
+          subtitle: "A researcher determined to maximise the potential of computers for healthcare and medical applications  "
           imageUrl: "picture.jpg"
           imageWidth: 160
           imageHeight: 160

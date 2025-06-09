@@ -12,7 +12,7 @@
   {{- if eq .Kind "404" -}}
     404: Page not found | {{ .Site.Title }}
   {{- else if and (not .IsHome) .Title -}}
-    {{ .Title }} | {{ .Site.Title }}
+     {{ .Site.Title }}
   {{- else -}}
     {{ .Site.Title }}
   {{- end -}}

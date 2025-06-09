@@ -1,16 +1,18 @@
 ---
-title: "About"
+title: "👋Hej!"
 date: 2024-05-25
 hidemeta: true
 
 ---
-### Hej! My name is Zhang, Fu (Family name in front) and you can call me Jerry.
+</br>
+<p class="quote"> Leverage the power of computers to improve the life quality and optimise the healthcare outcomes of patients suffering from mental and physical diseases, taking them towards a joyful and healthy future. </br></br>  <span style="float:right;">- My vision as a researcher </span>
+</p>
+</br>
 <p style="text-align: justify;">
-I am keen to research and develop novel HCI approaches towards medical and healthcare applications, which in the end contribute to improve the quality of life of patients suffering from mental and physical illnesses.
+My research interests lie in the fields of human-centred computing, robotics and application-oriented fundamental computer science research, through which I am seeking to deliver clinical solutions to realise my vision, the long-standing wish of mine.
 </br></br>
 I graduated from King's College London with a first class BEng and a distinction MSc degree. Followed by a software engineer career at Huawei. I am currently employed in the Hong Kong Polytechnic University as a research assistant.
 </p>
-
 
 ### Work Experience
 
