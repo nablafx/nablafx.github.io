@@ -27,7 +27,7 @@
     background-color: transparent; /* Background color for the rectangle */
     padding: 20px; /* Padding inside the rectangle */
     border-radius: 8px; /* Rounded corners for the rectangle */
-    max-width: 600px; /* Maximum width of the rectangle */
+    max-width: 700px; /* Maximum width of the rectangle */
     margin: 0 auto; /* Centers the rectangle horizontally */
 }
 
@@ -35,7 +35,6 @@
  position: relative;
     width: 200px;
     height: 200px;
-    background: url("static/images/profile.jpg");
     margin-right: 20px;
     clip-path: polygon(100% 83%, 78% 3%, 0 51%);
 }
@@ -46,8 +45,11 @@
 
 .profile_subtitle {
     font-size: 1.2em; /* Font size for the subtitle */
+    font-weight: 300;
     display: block; /* Ensures the subtitle is a block element */
+    margin-top: 4px;
     margin-bottom: 10px; /* Space below the subtitle */
+    font-family:sans-serif
 }
 
 .profile_job {

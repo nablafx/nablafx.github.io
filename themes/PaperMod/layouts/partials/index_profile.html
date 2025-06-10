@@ -32,13 +32,16 @@
         {{- end }}
         {{- end }}
         <div class="profile_details">
-            <h1>
+            <p style="font-size: 50px;">
                 <ruby>
-                  张 <rp>(</rp><rt>ZHANG</rt><rp>)</rp> 辅 <rp>(</rp><rt>FU</rt><rp>)</rp>
+                  <span style="font-family: serif;">张</span> <rp>(</rp><rt>ZHANG</rt><rp>)</rp> <span style="font-family: serif;">辅</span> <rp>(</rp><rt>FU</rt><rp>)</rp>
               </ruby>
-            </h1>
-            <span class="profile_subtitle">{{ .subtitle | markdownify }}</span>
-            <span class="profile_job">I am currently a <span class="emphasis">Research Assistant</span> at <a href="https://polyu.edu.hk/en/" class="emphasis">Department of Computing</a> in <a href="https://www.polyu.edu.hk/" class="emphasis">The Hong Kong Polytechnic University</a></span>
+            </p>
+            <span class="profile_subtitle">“{{ .subtitle | markdownify }}”</span>
+            <span class="profile_job">
+                I am currently a <span class="emphasis">Research Assistant</span> at <a href="https://polyu.edu.hk/en/" class="emphasis">Department of Computing</a> in <a href="https://www.polyu.edu.hk/" class="emphasis">The Hong Kong Polytechnic University</a>
+
+        </span>
             {{- partial "social_icons.html" -}}
         </div>   
     </div>

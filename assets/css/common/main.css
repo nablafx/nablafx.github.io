@@ -16,8 +16,20 @@
 
 .quote{
   margin: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
   font: 1.2rem/1.4 Georgia, serif;
   text-align: justify;
+}
+
+
+.quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.4em;
 }
 
 .pagination a {
@@ -79,4 +91,51 @@ pre {
 div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
+}
+
+
+.details-about {
+  /* border: 1px solid #aaa; */
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background: rgb(248, 248, 248);
+}
+
+.summary-about {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+.details-about[open] {
+  padding: 0.5em;
+}
+
+.details-about[open] .summary-about {
+  /* border-bottom: 1px solid #aaa; */
+  margin-bottom: 0.5em;
+}
+
+
+@media (max-width: 768px) {
+.quote{
+ margin: 0.5em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  font: 1.2rem/1.4 Georgia, serif;
+  text-align: justify;
+}
+
+
+.quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.2em;
+}
+
 }

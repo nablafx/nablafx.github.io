@@ -4,7 +4,7 @@
     {{- if site.Copyright }}
     <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}
-    <span>&copy; {{ now.Year }} {{ site.Title }}</span>
+    <span>&copy; {{ now.Year }} {{ site.Params.author }}</span>
     {{- end }}
     {{- print " · "}}
     {{- end }}

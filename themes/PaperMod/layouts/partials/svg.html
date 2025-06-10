@@ -1,11 +1,48 @@
 {{- $icon_name := ( trim .name " " | lower )}}
-{{- if (eq $icon_name "123rf") -}}
+<!-- Custom icons -->
+{{- if (eq $icon_name "location") -}}
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+<path fill="currentColor" d="M12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5M12 2a7 7 0 0 1 7 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 0 1 7-7m0 2a5 5 0 0 0-5 5c0 1 0 3 5 9.71C17 12 17 10 17 9a5 5 0 0 0-5-5Z"/>
+</svg>
+{{- else if (eq $icon_name "office hours") -}}
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> 
+<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+<path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" /> 
+<circle cx="18" cy="18" r="4" /> 
+<path d="M15 3v4" /> 
+<path d="M7 3v4" /> 
+<path d="M3 11h16" /> 
+<path d="M18 16.496v1.504l1 1" /> 
+</svg>
+{{- else if (eq $icon_name "zoom") -}}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" stroke="currentColor">
+  <path
+    d="M24,60H152a32,32,0,0,1,32,32v96a8,8,0,0,1-8,8H48a32,32,0,0,1-32-32V68A8,8,0,0,1,24,60Z"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="21.6"
+  />
+  <polyline
+    points="184 112 240 80 240 176 184 144"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="22"
+  />
+</svg>
+<!-- Modified PaperMod icons -->
+{{- else if (eq $icon_name "cv") -}}
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path style="font-variation-settings:normal"
-        d="M7.48 3.826c-.702 0-1.345.388-1.675 1.008l-.711 1.334a4.214 4.214 0 0 1-1.614 1.67l-.388.224a2.207 2.207 0 0 0-1.104 1.913v8.607c0 .878.712 1.592 1.59 1.592h1.186c.468 0 .916-.19 1.244-.524l1.478-1.504c.266-.27.628-.421 1.006-.421h7.04c.378 0 .74.151 1.005.421l1.478 1.504c.329.334.778.524 1.247.524h1.183c.879 0 1.592-.714 1.592-1.592V9.975c0-.79-.422-1.518-1.106-1.912l-.388-.225a4.214 4.214 0 0 1-1.613-1.67l-.711-1.334a1.899 1.899 0 0 0-1.676-1.008z"
-        stroke-linejoin="miter" />
-    <circle cx="12" cy="12.467" r="2.723" />
+stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 4v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.342a2 2 0 0 0-.602-1.43l-4.44-4.342A2 2 0 0 0 13.56 2H6a2 2 0 0 0-2 2z" />
+<path d="M9 13h6" />
+<path d="M9 17h3" />
+<path d="M14 2v4a2 2 0 0 0 2 2h4" />
+</svg>
+{{- else if (eq $icon_name "google scholar") -}}
+<svg viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">     
+<path d="M5.242 13.769L0.5 9.5 12 1l11.5 9-5.242 3.769C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" />
 </svg>
 {{- else if (eq $icon_name "500px") -}}
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
