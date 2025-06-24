@@ -1,0 +1,323 @@
+.good-menu {
+    margin-top: 5px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.393);
+    border-bottom-color: white;
+}
+
+
+
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    /* Center the container horizontally */
+    align-items: center;
+    /* Center the container vertically */
+    width: 100%;
+    height: 100%;
+}
+
+.container-main {
+    display: flex;
+    align-items: flex-start;
+    /* Align items to the start vertically */
+}
+
+#home-page {
+    background: white;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+
+}
+
+#intro {
+    width: 500px;
+    margin-left: 50px;
+}
+
+#profile {
+    float: left;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.polaroid {
+    width: 220px;
+    padding: 10px 10px 20px 10px;
+    /* background: rgb(246, 252, 252); */
+    box-shadow:
+        0 1px 1px rgba(0, 0, 0, 0.12),
+        0 2px 2px rgba(0, 0, 0, 0.12),
+        0 4px 4px rgba(0, 0, 0, 0.12),
+        0 8px 8px rgba(0, 0, 0, 0.12);
+    transform: rotate(-2deg);
+    transition: all 0.3s ease;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.polaroid:hover {
+    transform: rotate(0deg) scale(1.02);
+    box-shadow:
+        0 2px 2px rgba(0, 0, 0, 0.15),
+        0 4px 4px rgba(0, 0, 0, 0.15),
+        0 8px 8px rgba(0, 0, 0, 0.15),
+        0 16px 16px rgba(0, 0, 0, 0.15);
+}
+
+.photo {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+#title {
+    margin-bottom: 20px;
+    font-size: 54px;
+}
+
+#subtitle {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+#info-panel {
+    font-size: 16px;
+    width: 100%;
+}
+
+.caption {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.button-link {
+    cursor: pointer;
+    color: blue;
+}
+
+.button-link:hover {
+    text-decoration: underline;
+}
+
+
+.container-page {
+    margin-top: 3%;
+    height: 90%;
+}
+
+#profile-page-container {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 45px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+}
+
+.markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 45px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.markdown-body-sm {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 45px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#profile-card {
+    width: 400px;
+    padding: 36px;
+    border-radius: 24px;
+    margin-bottom: 20px;
+}
+
+#contact-card {
+    width: 400px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 10px ;
+    margin-bottom: 20px;
+}
+
+
+.details-about {
+  /* border: 1px solid #aaa; */
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background: rgb(248, 248, 248);
+}
+
+.summary-about {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+.details-about[open] {
+  padding: 0.5em;
+}
+
+.details-about[open] .summary-about {
+  /* border-bottom: 1px solid #aaa; */
+  margin-bottom: 0.5em;
+}
+
+footer {
+    background-color: transparent;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .container-main {
+        flex-direction: column;
+        /* Stack profile and intro vertically */
+    }
+
+    #intro {
+        margin-top: 60px;
+        /* Add some margin above the intro for spacing */
+        margin-left: 0;
+        /* Remove left margin for mobile view */
+        width: 80%;
+        /* Make profile div smaller for mobile view */
+        margin: 0 auto;
+        /* Center the profile div */
+    }
+
+    #profile {
+        float: none;
+        /* Remove float for mobile view */
+        margin: 0 auto;
+        /* Center the profile div */
+        margin-bottom: 20px;
+        /* Add some margin below the profile div for spacing */
+    }
+
+
+    .polaroid {
+        width: 150px;
+        padding: 6px 6px 8px 6px;
+        box-shadow:
+            0 1px 1px rgba(0, 0, 0, 0.12),
+            0 2px 2px rgba(0, 0, 0, 0.12),
+            0 4px 4px rgba(0, 0, 0, 0.12),
+            0 8px 8px rgba(0, 0, 0, 0.12);
+        transform: rotate(-2deg);
+        transition: all 0.3s ease;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+    }
+
+    .polaroid:hover {
+        transform: rotate(0deg) scale(1.02);
+        box-shadow:
+            0 2px 2px rgba(0, 0, 0, 0.15),
+            0 4px 4px rgba(0, 0, 0, 0.15),
+            0 8px 8px rgba(0, 0, 0, 0.15),
+            0 16px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .photo {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .caption {
+        font-size: 14px;
+    }
+
+    #title {
+        font-size: 32px;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+        /* Center text within title div */
+        width: 100%;
+    }
+
+    #subtitle {
+        font-size: 15px;
+        margin: 0 auto;
+        font-display: justify;
+        text-align: center;
+        /* Center text within title div */
+        width: 100%;
+    }
+
+    #info-panel {
+        font-size: 12px;
+        margin: 0 auto;
+        font-display: justify;
+        text-align: center;
+        /* Center text within title div */
+        width: 100%;
+        height: 80px;
+        overflow-y: scroll;
+    }
+
+    .container-page {
+        margin-top: 15%;
+    }
+
+    .markdown-body {
+        padding: 15px;
+        font-size: small;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+
+
+    footer {
+        background-color: transparent;
+        text-align: center;
+        font-size: 6px;
+    }
+
+
+}

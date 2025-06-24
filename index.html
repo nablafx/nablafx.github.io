@@ -1,0 +1,335 @@
+<html>
+<header>
+    <title>Fu Zhang</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/external-card.css">
+
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/logics.js"></script>
+    <!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
+
+
+</header>
+
+<body>
+
+    <ul class="nav nav-tabs justify-content-center fixed-top good-menu" id="myTab" role="tablist">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-page" type="button"
+            role="tab" aria-controls="home" aria-selected="true">
+            <img width="25" src="assets/svg/info-circle-theme.svg" />
+        </button>
+
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#profile-page" type="button"
+            role="tab" aria-controls="profile" aria-selected="false">
+            <img width="25" src="assets/svg/pass-id-card-theme.svg" />
+        </button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#pub-page" type="button"
+            role="tab" aria-controls="profile" aria-selected="false">
+            <img width="25" src="assets/svg/academic-cap-theme.svg" />
+        </button>
+        <li class="nav-item dropdown">
+            <button class="nav-link dropdown-toggle" data-toggle="tab" href="#" id="navbarDropdownMenuLink"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img width="25" src="assets/svg/more-horizontal.svg" />
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="tab" data-bs-target="#contact-page"
+                        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Contact</button>
+                </li>
+                <li>
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="tab" data-bs-target="#news-page"
+                        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">News</button>
+                </li>
+                <li>
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="tab" data-bs-target="#extra-page"
+                        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Extra</button>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-page" role="tabpanel" aria-labelledby="home-tab">
+            <div class="center-wrapper">
+                <div class="container-main">
+                    <div id="profile">
+                        <div class="polaroid">
+                            <div class="photo">
+                                <img src="assets/picture.jpg">
+                            </div>
+                            <div class="caption">JERRY '17</div>
+                        </div>
+                    </div>
+                    <div id="intro">
+                        <div id="title">
+                            <p>
+                                <ruby>
+                                    <span style="font-family: serif;">张</span>
+                                    <rp>(</rp>
+                                    <rt>ZHANG</rt>
+                                    <rp>)</rp> <span style="font-family: serif;">辅</span>
+                                    <rp>(</rp>
+                                    <rt>FU</rt>
+                                    <rp>)</rp>
+                                </ruby>
+                            </p>
+                        </div>
+                        <div id="subtitle">
+                            <p>"Dedicated to sharpening the capabilities of computers in the
+                                fields of
+                                healthcare and medical applications."</p>
+                        </div>
+                        <br>
+                        <div id="info-panel">
+                            <p>I'm currently an <span style="text-decoration: underline;">Research Assistant 🔬</span>
+                                at <span>Department of Computing in The Hong Kong Polytechnic
+                                    University</span>.
+                            </p>
+
+                            <p>Feel free to <span class="button-link" onclick="activatePage('profile-page')">contact
+                                    me</span> and <span class="button-link" onclick="activatePage('pub-page')">view my
+                                    works</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="profile-page" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="container-page">
+                <div id="profile-page-container">
+                    <div id="info-part">
+                        <div id="personal">
+                            <div class="card" id="profile-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <ruby>
+                                            <span style="font-family: serif;">张</span>
+                                            <rp>(</rp>
+                                            <rt>ZHANG</rt>
+                                            <rp>)</rp> <span style="font-family: serif;">辅</span>
+                                            <rp>(</rp>
+                                            <rt>FU</rt>
+                                            <rp>)</rp>
+                                        </ruby>
+                                    </h5>
+                                    <span>
+                                        <span class="badge text-bg-primary">Researcher</span>
+                                        <span class="badge text-bg-success">ENTP</span>
+                                    </span>
+                                    <p class="card-text" style="margin-top: 20px;">Incoming PhD student, research
+                                        assistant at the Hong Kong Polytechnic University.</p>
+                                    <a href="#quote" class="card-link">Visions</a>
+                                    <a href="#research-interests" class="card-link">Research Interests</a><br>
+                                    <a href="#experience" class="card-link">Employments & Education</a>
+
+                                </div>
+                            </div>
+
+
+                            <div class="card" id="contact-card">
+                                <span>
+                                    Find me:
+                                    <button type="button" class="btn btn-outline-primary btn-sm">Email</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">LinkedIn</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Github</button>
+                                    <!-- Example single danger button -->
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-outline-dark dropdown-toggle btn-sm"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            More
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Google Scholar</a></li>
+                                            <li><a class="dropdown-item" href="#">placeholder</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">placeholder2</a></li>
+                                        </ul>
+                                    </div>
+
+                                </span>
+                            </div>
+                        </div>
+
+                        <div id="quote">
+                            <div class="card-vision">
+                                <div class="content-vision">
+                                    <p class="heading-vision">Vision</p>
+                                    <p class="para-vision">
+                                        Leverage computational advancements to enhance the quality of
+                                        life and improve healthcare outcomes for individuals facing mental and physical
+                                        challenges, guiding them toward a positive and vibrant future.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="markdown-body-sm">
+                        <h1>Hello!</h1>
+                        <p>My name is Zhang Fu, family name in front. You can call me Jerry.
+                            I graduated from King's College London with a first class BEng
+                            and a distinction MSc degree. Followed by a software engineer career at Huawei.
+                            I am currently employed in the Hong Kong Polytechnic University as a research
+                            assistant and I will be starting my PhD here at the PolyU from September 2025.</p>
+                        <h3 id="research-interests">Research Interests</h3>
+                        <p>
+                            My research interests lie in the fields of human-centred computing, robotics and
+                            application- and clinical-oriented fundamental computer science research, through
+                            which I am dedicated to deliver clinical solutions to realise my vision,
+                            the long-standing ambition of mine to make a meaningful impact. <br><br> Followings are
+                            topics I am
+                            paritcularly interested</p>
+                        <ul>
+                            <li>Human-computer interaction (HCI), Robotics and Human-robot Interaction (HRI) </li>
+                            <ul>
+                                <li>for Healthcare Applications</li>
+                                <li>for Clinical Applications</li>
+                                <li>for Accessiblity</li>
+                            </ul>
+                            <li>HCI and HRI design approches </li>
+                            <li>Aritificial Intelligence algorithms and applications</li>
+                            <ul>
+                                <li>Computer visions</li>
+                                <li>Generative models</li>
+                                <li>Pretrained language models</li>
+                            </ul>
+                        </ul>
+                        <br>
+                        <p>
+                            With a interdisciplinary background in computer science, mathematics, and engineering, I
+                            have a strong understanding of the fundamental principles of computing and theories of
+                            computation and electronics, along with extensive experience in pratical software
+                            development. While my research focuses
+                            on the application and delivers software- and hardware-based realiable clicnical solutions,
+                            I am also passionate about optimising the fundamental
+                            and theoretical algorithms and methods on which deployed application-oriented research is
+                            based.
+                        </p>
+                        <p>
+                            In the past, I have worked on research in the following areas: Machine teaching for robot;
+                            HCI for accessiblity and for mental disorders interventions. Which cover across computer
+                            science,
+                            mathematics, and engineering.
+                        </p>
+
+
+                        <br><br>
+
+                        <h1 id="experience">Experiences</h1>
+                        <br><br>
+                        <details class="details-about" open>
+                            <summary class="summary-about">Work Experience</summary>
+
+                            <div style="width:100%">
+                                <table style="overflow-x:auto;">
+                                    <!-- <thead>
+                                    <tr>
+                                        <th>Position</th>
+                                        <th>Affiliation</th>
+                                    </tr></thead> -->
+                                    <tbody>
+                                        <tr>
+                                            <td style="border-bottom: 1px solid rgb(181, 181, 181);">Full-time <br>
+                                                <b>Research Assistant</b> <br> <i>August 2023 - Now</i>
+                                            </td>
+                                            <td style="width:35%; border-bottom: 1px solid rgb(181, 181, 181);">Faculty
+                                                of Computer and Mathematical Sciences, <br><span
+                                                    style=" color: #007bff;" href="">The Hong Kong Polytechnic
+                                                    University</span> </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border-bottom: 1px solid rgb(181, 181, 181);">Full-time <br>
+                                                <b>Software Engineer</b> <br> <i>December 2021 - May 2023</i>
+                                            </td>
+                                            <td style="border-bottom: 1px solid rgb(181, 181, 181);">Huawei Technologies
+                                                Co., Ltd </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </details>
+                        <br>
+                        <details class="details-about" open>
+                            <summary class="summary-about">Education</summary>
+                            <div style="width:100%">
+                                <table style="overflow-x:auto;">
+                                    <tbody>
+                                        <tr>
+                                            <td style="border-bottom: 1px solid rgb(181, 181, 181);">Doctor of
+                                                Philosophy <br> in <b>Computing</b> <br> <i>To Start in Sept 2025</i>
+                                                <br>2025-2029
+                                            </td>
+                                            <td style="border-bottom: 1px solid rgb(181, 181, 181);">Faculty of Computer
+                                                and Mathematical Sciences, <br><span style=" color: #007bff;"
+                                                    href="">The Hong Kong Polytechnic University</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border-bottom: 1px solid rgb(181, 181, 181);">Master of Science
+                                                <br> in <b>Advanced Computing</b> <br> <i>Pass with Distinction</i>
+                                                <br>2020-2021
+                                            </td>
+                                            <td style="width:30%; border-bottom: 1px solid rgb(181, 181, 181);"
+                                                rowspan="2">Faculty of Natural, Mathematical & Engineering Sciences,
+                                                <span style=" color: #007bff;" href="">King's College London</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border-bottom: 1px solid rgb(181, 181, 181);">Master of Science
+                                                <br> in <b>Electronic and Information Engineering</b> <br> <i>First
+                                                    Class Honours</i><br>2017-2020
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+
+                        </details>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pub-page" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="center-wrapper">
+                <div class="container-main">
+                    <h1>pub page placeholder</h1>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="contact-page" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="center-wrapper">
+                <div class="container-main">
+                    <h1>Contact page placeholder</h1>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="news-page" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="center-wrapper">
+                <div class="container-main">
+                    <h1>News page placeholder</h1>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="extra-page" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="center-wrapper">
+                <div class="container-main">
+                    <h1>Extra page placeholder</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<footer class="fixed-bottom">
+    <p>© 2025 Fu Zhang. All rights reserved. Up-to-date from 24 June 2025.</p>
+</footer>
+
+</html>
