@@ -34,15 +34,14 @@
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                 aria-expanded="false">MORE</a>
             <ul class="dropdown-menu">
-                <li><a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#contact-page"
-                        type="button" role="pill" aria-controls="profile" aria-selected="false" class="dropdown-item"
-                        href="#">Contacts</a></li>
-                <li><a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#project-page"
-                        type="button" role="pill" aria-controls="profile" aria-selected="false" class="dropdown-item"
-                        href="#">Project</a></li>
-                <li><a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#extra-page"
-                        type="button" role="pill" aria-controls="profile" aria-selected="false" class="dropdown-item"
-                        href="#">Extra</a></li>
+                <li><a class="dropdown-item" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#contact-page"
+                        type="button" role="pill" aria-controls="profile" aria-selected="false" href="#">Contacts</a>
+                </li>
+                <li><a class="dropdown-item" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#project-page"
+                        type="button" role="pill" aria-controls="profile" aria-selected="false" href="#">Project</a>
+                </li>
+                <li><a class="dropdown-item" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#extra-page"
+                        type="button" role="pill" aria-controls="profile" aria-selected="false" href="#">Extra</a></li>
 
             </ul>
         </li>
@@ -134,21 +133,20 @@
 
                             <div class="card" id="contact-card">
                                 <span>
-                                    <button type="button" class="btn btn-outline-primary btn-sm">Email</button>
-                                    <button type="button" class="btn btn-outline-secondary btn-sm">LinkedIn</button>
                                     <!-- Example single danger button -->
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-outline-dark dropdown-toggle btn-sm"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            Academic
+                                            jerry-fu.zhang@polyu.edu.hk (EMAIL)
                                         </button>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Google Scholar</a></li>
-                                            <li><a class="dropdown-item" href="#">placeholder</a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">placeholder2</a></li>
+                                            <li><a class="dropdown-item" href="mailto:jerry-fu.zhang@polyu.edu.hk">Send me an Email!</a></li>
+                                            <li><h6 class="dropdown-header">or find me on:</h6></li>
+                                            <li><a class="dropdown-item" href="https://github.com/nablafx">nablafx(GitHub)</a></li>
+                                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/fuzhang049/">fuzhang049(LinkedIn)</a></li>
+                                                <li><h6 class="dropdown-header">placeholder:</h6></li>
+                                           <li><a class="dropdown-item" href="#">placeholder1</a></li>       
+                                        <li><a class="dropdown-item" href="#">placeholder2</a></li>
                                         </ul>
                                     </div>
 
@@ -157,15 +155,17 @@
                         </div>
 
                         <div id="quote">
-                            <div class="card-vision" id="full-vision-card">
-                                <div class="content-vision">
-                                    <p class="heading-vision">My vision</p>
-                                    <p class="para-vision">
-                                        Leverage computational advancements to enhance the quality of
+                            <div class="card p-3 text-right shadow-sm">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Leverage computational advancements to enhance the quality of
                                         life and improve healthcare outcomes for individuals facing mental and physical
-                                        challenges, guiding them toward a positive and vibrant future.
-                                    </p>
-                                </div>
+                                        challenges, guiding them toward a positive and vibrant future.</p>
+                                    <footer class="blockquote-footer">
+                                        <small class="text-muted">
+                                             My vision as an researcher
+                                        </small>
+                                    </footer>
+                                </blockquote>
                             </div>
                         </div>
                     </div>
