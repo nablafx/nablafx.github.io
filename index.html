@@ -285,70 +285,170 @@
             transform: rotate(90deg);
         }
 
-
-        .award-card {
+        .link-icon {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            border: 1px solid var(--border);
+            background: linear-gradient(135deg, var(--bg-soft), #f0f6ff);
             display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            padding: 12px 0;
-            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            transition: 0.2s ease;
         }
 
-        .award-left {
-            flex: 1;
-            min-width: 0; /* prevents overflow */
+        .link-icon img {
+            width: 18px;
+            height: 18px;
+            opacity: 0.85;
         }
 
-        .award-title {
-            margin: 0;
-            font-size: 0.95rem;
+        .link-icon:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(58, 141, 255, 0.25);
         }
 
-        .award-subtitle {
-            margin: 2px 0 0;
-            font-size: 0.8rem;
-            color: var(--fg-muted);
-            line-height: 1.3;
-        }
-
-        .award-right {
-            flex-shrink: 0;
-        }
-
-        .award-cta {
-            font-size: 0.8rem;
-            padding: 4px 10px;
-            border-radius: 4px;
-            background: var(--accent);
-            color: white;
-            text-decoration: none;
-            transition: background 0.2s ease;
+        .link-icon:hover img {
+            opacity: 1;
         }
 
 
-        /* --- Responsive --- */
-        @media (max-width: 800px) {
+        @media (max-width: 1000px) {
+
+            .bg-card {
+                flex-direction: column;     /* stack vertically */
+                align-items: flex-start;    /* align everything to the left */
+                gap: 6px;                   /* small spacing between lines */
+                text-align: left;           /* ensure no centering */
+            }
+
+            /* --- Global adjustments --- */
+            body {
+                padding: 20px 12px;
+                line-height: 1.5;
+            }
+
+            /* --- Layout --- */
             .layout {
                 flex-direction: column;
                 align-items: center;
+                width: 100% !important;
+                max-width: 100% !important;
+                gap: 28px;
             }
 
+            /* --- Sidebar / Avatar --- */
             .sidebar {
-                width: auto;
+                width: 100% !important;
+                display: flex;
+                justify-content: center;
             }
 
             .avatar {
-                margin-bottom: 20px;
+                width: 120px;
+                height: 120px;
+                border-radius: 10px;
             }
 
+            /* --- Content --- */
             .content {
-                max-width: 100%;
+                width: 100% !important;
+                max-width: 100% !important;
+                min-width: 0 !important;
+                padding: 0 10px;
             }
 
+            /* --- Header --- */
             header {
                 text-align: center;
+                margin-bottom: 24px;
+                padding-bottom: 20px;
+            }
+
+            .name {
+                font-size: 2.2rem;
+                letter-spacing: 0.03em;
+            }
+
+
+
+            .intro {
+                font-size: 0.9rem;
+                margin-top: 12px;
+            }
+
+            /* --- Links --- */
+            .links {
+                justify-content: center;
+                gap: 10px;
+            }
+
+            .link-btn {
+                padding: 8px 14px;
+                font-size: 0.8rem;
+            }
+
+            /* --- Section spacing --- */
+            section {
+                padding: 20px 0;
+            }
+
+
+
+            .exp-role {
+                font-size: 0.95rem;
+            }
+
+            .exp-time {
+                font-size: 0.75rem;
+            }
+
+            /* --- BG Cards (Education, Skills, etc.) --- */
+            .bg-card {
+                font-size: 0.75rem;
+                padding: 12px 14px;
+                border-radius: 10px;
+                margin-top: 10px;
+            }
+
+            .bg-card p,
+            .bg-card div,
+            .bg-card span {
+                font-size: 0.75rem;
+            }
+
+            /* --- Collapse toggle --- */
+            .exp-toggle {
+                font-size: 0.75rem;
+                letter-spacing: 0.12em;
+            }
+
+            .triangle {
+                transform: scale(0.9);
+            }
+
+            /* --- Footer --- */
+            footer {
+                font-size: 0.7rem;
+                text-align: center;
+                justify-content: center;
+                gap: 6px 12px;
+            }
+
+            .link-icon {
+                width: 30px;
+                height: 30px;
+            }
+
+            .link-icon img {
+                width: 16px;
+                height: 16px;
             }
         }
+
+
+
     </style>
 </head>
 
@@ -387,12 +487,27 @@
                 <span class="highlight">HCI‑ and robotics‑driven assistance and interventions</span>,
                 aiming to enhance autonomy, well‑being, and quality of life.
             </p>
+            <p class="intro">
+                Off work, I travel, watch football(huge arsenal fan) and play music (clarinet,piano and harmonica)
+            </p>
             <div class="links">
-                <a class="link-btn" href="https://github.com/yourusername" target="_blank">GitHub ↗</a>
-                <a class="link-btn" href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn ↗</a>
-                <a class="link-btn" href="mailto:your.email@polyu.edu.hk">Email ✉</a>
+                <a class="link-icon" href="https://github.com/nablafx" target="_blank" aria-label="GitHub">
+                    <img src="assets/svg/github.svg" alt="">
+                </a>
 
+                <a class="link-icon" href="https://www.linkedin.com/in/fuzhang049/" target="_blank" aria-label="LinkedIn">
+                    <img src="assets/svg/linkedin.svg" alt="">
+                </a>
+
+                <a class="link-icon" href="https://orcid.org/0009-0001-8506-7321" target="_blank" aria-label="CV">
+                    <img src="assets/svg/orcid.svg" alt="">
+                </a>
+
+                <a class="link-icon" href="mailto:jerry-fu.zhang@polyu.edu.hk" aria-label="Email">
+                    <img src="assets/svg/email.svg" alt="">
+                </a>
             </div>
+
         </header>
 
 <!--        Experience-->
@@ -434,7 +549,7 @@
                 data-bs-toggle="collapse"
                 href="#educationCollapse"
                 role="tab"
-                aria-expanded="false"
+                aria-expanded="true"
                 aria-controls="educationCollapse"
                 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--fg-muted); margin-bottom: 10px;">
 
@@ -443,7 +558,7 @@
             </h3>
 
 
-            <div class="collapse pad-collapse" id="educationCollapse">
+            <div class="collapse pad-collapse show" id="educationCollapse">
 
                 <div class="bg-card">
                     <div class="exp-left">
@@ -499,7 +614,7 @@
 
             </div>
 
-            <!--        Education-->
+            <!--        Project-->
             <h3 class="exp-toggle"
                 data-bs-toggle="collapse"
                 href="#prjCollapse"
