@@ -214,10 +214,34 @@ footer {
     justify-content: space-between;
     align-items: center;
     transition: 0.2s ease;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+
+.bg-card-vertical {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    text-align: left;
+    padding: 18px 22px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, var(--bg-soft), #f3f7ff);
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 5px rgba(58, 141, 255, 0.12);
+    display: flex;
+    transition: 0.2s ease;
     margin-top: 12px;
+    margin-bottom: 20px;
 }
 
 .bg-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 8px 24px rgba(58, 141, 255, 0.18);
+    transform: translateY(-2px);
+}
+
+.bg-card-vertical:hover {
     border-color: var(--accent);
     box-shadow: 0 8px 24px rgba(58, 141, 255, 0.18);
     transform: translateY(-2px);
@@ -250,7 +274,6 @@ footer {
 
 .pad-collapse {
     padding-top: 1px;
-    padding-bottom: 30px;
 }
 
 .exp-toggle {
