@@ -60,6 +60,36 @@ body {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
 }
 
+/* --- Custom Tabs Matching Your Aesthetic --- */
+.custom-tabs {
+    border-bottom: 1px solid var(--border);
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.custom-tabs .nav-link {
+    color: var(--fg-muted);
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    padding: 8px 14px;
+}
+
+.custom-tabs .nav-link.active {
+    color: var(--accent);
+    font-weight: 600;
+    border-bottom: 2px solid var(--accent);
+}
+
+.custom-tabs .nav-link:hover {
+    color: var(--accent);
+}
+
+.custom-tab-content {
+    padding-top: 6px;
+}
 
 
 /* --- Main Content Column --- */

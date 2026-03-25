@@ -42,16 +42,58 @@
                 <span class="badge text-bg-primary">CAT PERSON</span>
                 <span class="badge text-bg-success">ENFP</span>
             </p>
-            <p class="intro">
-                Hi! I’m Jerry (ZHANG Fu), a PhD student at The Hong Kong Polytechnic University
-                and a researcher in <span class="highlight">Human–Computer Interaction (HCI)</span>
-                with strong software and electronics engineering experience. While having a general interest over
-                a wide range of HCI topics, I am particularly passionate about <span class="highlight">AI in clinical medicine and healthcare</span>,
-                leveraging HCI power to bring a better life and intervention to those suffered from mental and physical issues.
-            </p>
-            <p class="intro">
-                Off work, I travel, watch football(huge arsenal fan) and play music (clarinet,piano and harmonica)
-            </p>
+            <!-- Tabs -->
+            <ul class="nav nav-tabs custom-tabs" id="introTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="about-tab" data-bs-toggle="tab"
+                            data-bs-target="#about" type="button" role="tab">
+                        About Me
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="works-tab" data-bs-toggle="tab"
+                            data-bs-target="#works" type="button" role="tab">
+                        WORKS
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="hobbies-tab" data-bs-toggle="tab"
+                            data-bs-target="#hobbies" type="button" role="tab">
+                        Hobbies
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Tab Content -->
+            <div class="tab-content custom-tab-content" id="introTabsContent">
+
+                <div class="tab-pane fade show active" id="about" role="tabpanel">
+                    <p class="intro">
+                        Hi! I’m Jerry (ZHANG Fu), a PhD student at The Hong Kong Polytechnic University
+                        and a researcher in <span class="highlight">Human–Computer Interaction (HCI)</span>
+                        with strong software and electronics engineering experience. While having a general interest over
+                        a wide range of HCI topics, I am particularly passionate about
+                        <span class="highlight">AI in clinical medicine and healthcare</span>, leveraging HCI power to bring
+                        a better life and intervention to those suffering from mental and physical issues.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="works" role="tabpanel">
+                    <p class="intro">
+                        My current work currently focus on HCI driven mental interventions
+                    </p>
+                    <p class="intro">
+                        In the past, I have worked with human robot interactions, HCI for accessibility.
+                    </p>
+                </div>
+
+                <div class="tab-pane fade" id="hobbies" role="tabpanel">
+                    <p class="intro">
+                        Off work, I travel, in particular, to <span class="highlight">rent a car and drive around</span>. I do watch football as huge arsenal fan.
+                        I enjoy playing music instruments as well, specifically, <span class="highlight">piano, clarinet and harmonica</span>.
+                    </p>
+                </div>
+
+            </div>
             <div class="links">
                 <a class="link-icon" href="https://github.com/nablafx" target="_blank" aria-label="GitHub">
                     <img src="assets/svg/github.svg" alt="">
