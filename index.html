@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,267 +12,283 @@
 
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
     <!-- font -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@chinese-fonts/zqfs@2.0.1/dist/ZhuqueFangsong-Regular/result.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@chinese-fonts/zqfs@2.0.1/dist/ZhuqueFangsong-Regular/result.min.css">
 
 </head>
 
 <body>
-<div class="layout">
+    <div class="layout">
 
-    <!-- LEFT SIDEBAR -->
-    <div class="sidebar">
-        <div class="profile-image-wrapper">
-            <!-- Cradle Cat Image -->
-            <div class="laying-cat">
-                <img src="assets/cat_laying.png" alt="Cat in cradle" class="laying-cat-image">
+        <!-- LEFT SIDEBAR -->
+        <div class="sidebar">
+            <div class="profile-image-wrapper">
+                <!-- Cradle Cat Image -->
+                <div class="laying-cat">
+                    <img src="assets/cat_laying.png" alt="Cat in cradle" class="laying-cat-image">
+                </div>
+
+                <div class="avatar"></div>
+                <!-- Cradle Cat Image -->
+                <div class="cradle-cat">
+                    <img src="assets/cat2.png" alt="Cat in cradle" class="cradle-image">
+                </div>
             </div>
 
-            <div class="avatar"></div>
-            <!-- Cradle Cat Image -->
-            <div class="cradle-cat">
-                <img src="assets/cat2.png" alt="Cat in cradle" class="cradle-image">
-            </div>
         </div>
 
+        <!-- MAIN CONTENT -->
+        <div class="content">
+
+            <header>
+                <div class="name">
+                    <ruby>
+                        <span style="font-family: 'Zhuque Fangsong (technical preview)';">张</span>
+                        <rp>(</rp>
+                        <rt>ZHANG</rt>
+                        <rp>)</rp> <span style="font-family: 'Zhuque Fangsong (technical preview)';">辅</span>
+                        <rp>(</rp>
+                        <rt>FU</rt>
+                        <rp>)</rp>
+                    </ruby>
+                </div>
+                <p>
+                    <span class="badge text-bg-primary">CAT PERSON</span>
+                    <span class="badge text-bg-success">ENFP</span>
+                </p>
+                <!-- Tabs -->
+                <ul class="nav nav-tabs custom-tabs" id="introTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about"
+                            type="button" role="tab">
+                            About Me
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="works-tab" data-bs-toggle="tab" data-bs-target="#works"
+                            type="button" role="tab">
+                            WORKS
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="hobbies-tab" data-bs-toggle="tab" data-bs-target="#hobbies"
+                            type="button" role="tab">
+                            Hobbies
+                        </button>
+                    </li>
+                </ul>
+
+                <!-- Tab Content -->
+                <div class="tab-content custom-tab-content" id="introTabsContent">
+
+                    <div class="tab-pane fade show active info-card" id="about" role="tabpanel">
+                        <p class="intro">
+                            Hi! I’m Jerry (ZHANG Fu), a PhD student at The Hong Kong Polytechnic University
+                            and a researcher in <span class="highlight">Human–Computer Interaction (HCI)</span>
+                            with strong software and electronics engineering experience. While having a general interest
+                            over
+                            a wide range of HCI topics, I am particularly passionate about
+                            <span class="highlight">HCI in clinical medicine and healthcare</span>, leveraging HCI power
+                            to bring
+                            a better life and intervention to those suffering from mental and physical issues.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade info-card" id="works" role="tabpanel">
+                        <p class="intro">
+                            My work currently focus on HCI driven mental interventions
+                        </p>
+                        <p class="intro">
+                            In the past, I have worked with human robot interactions, HCI for accessibility.
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade info-card" id="hobbies" role="tabpanel">
+                        <p class="intro">
+                            I enjoy playing music instruments as well, specifically, <span class="highlight">piano,
+                                clarinet and harmonica</span>.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="links">
+                    <a class="link-icon" href="https://github.com/nablafx" target="_blank" aria-label="GitHub">
+                        <img src="assets/svg/github.svg" alt="">
+                    </a>
+
+                    <a class="link-icon" href="https://www.linkedin.com/in/fuzhang049/" target="_blank"
+                        aria-label="LinkedIn">
+                        <img src="assets/svg/linkedin.svg" alt="">
+                    </a>
+
+                    <a class="link-icon" href="https://orcid.org/0009-0001-8506-7321" target="_blank" aria-label="CV">
+                        <img src="assets/svg/orcid.svg" alt="">
+                    </a>
+
+                    <a class="link-icon" href="mailto:jerry-fu.zhang@polyu.edu.hk" aria-label="Email">
+                        <img src="assets/svg/email.svg" alt="">
+                    </a>
+                </div>
+
+            </header>
+
+            <!--        Experience-->
+            <section>
+
+                <!-- <h3 class="exp-toggle" data-bs-toggle="collapse" href="#publicationCollapse" role="tab"
+                    aria-expanded="true" aria-controls="publicationCollapse"
+                    style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--fg-muted); margin-bottom: 10px;">
+
+                    <span class="triangle">▶</span>
+                    Publications
+                </h3>
+
+                <div class="collapse pad-collapse show" id="publicationCollapse">
+                    <div class="bg-card-vertical">
+                        <div class="exp-left">
+                            <div class="exp-role">Sample Publication Title: Exploring the Impact of HCI in Clinical
+                                Settings</div>
+                            <div class="exp-time"><em>J. Doe, F. Zhang, and A. Smith</em></div>
+                        </div>
+                        <div>
+                            <span style="font-size: 0.8rem; color: var(--fg-muted);">IEEE Transactions on Human-Machine
+                                Systems, vol. 55, no. 2, pp. 123-130, 2025.</span>
+                        </div>
+                    </div>
+                </div> -->
+
+                <h3 class="exp-toggle" data-bs-toggle="collapse" href="#experienceCollapse" role="tab"
+                    aria-expanded="true" aria-controls="experienceCollapse"
+                    style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--fg-muted); margin-bottom: 10px;">
+
+                    <span class="triangle">▶</span>
+                    Experience
+                </h3>
+
+                <div class="collapse pad-collapse show" id="experienceCollapse">
+
+                    <div class="bg-card">
+                        <div class="exp-left">
+                            <div class="exp-role">Research Assistant</div>
+                            <div class="exp-time">2024 — 2025</div>
+                        </div>
+                        <div>The Hong Kong Polytechnic University</div>
+                    </div>
+
+                    <div class="bg-card">
+                        <div class="exp-left">
+                            <div class="exp-role">Software Engineer</div>
+                            <div class="exp-time">2021 - 2023</div>
+                        </div>
+                        <div>Huawei Technologies Co., Ltd</div>
+                    </div>
+
+                </div>
+
+                <!--        Education-->
+                <h3 class="exp-toggle" data-bs-toggle="collapse" href="#educationCollapse" role="tab"
+                    aria-expanded="true" aria-controls="educationCollapse"
+                    style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--fg-muted); margin-bottom: 10px;">
+
+                    <span class="triangle">▶</span>
+                    Education
+                </h3>
+
+
+                <div class="collapse pad-collapse show" id="educationCollapse">
+
+                    <div class="bg-card">
+                        <div class="exp-left">
+                            <div class="exp-role">PhD in Computing</div>
+                            <div class="exp-time">2025 — Present</div>
+                        </div>
+                        <div>The Hong Kong Polytechnic University</div>
+                    </div>
+
+                    <div class="bg-card">
+                        <div class="exp-left">
+                            <div class="exp-role">MSc in Advanced Computing</div>
+                            <div class="exp-time">(awarded with distinction, GPA 4/4) <br /> 2020 — 2021</div>
+                        </div>
+                        <div>King's College London</div>
+                    </div>
+
+                    <div class="bg-card">
+                        <div class="exp-left">
+                            <div class="exp-role">BEng in Electronics and Information Engineering</div>
+                            <div class="exp-time">(awarded with first class, GPA 3.7/4) <br /> 2017 — 2020</div>
+                        </div>
+                        <div>King's College London</div>
+                    </div>
+
+                </div>
+
+
+                <!--        Award-->
+                <h3 class="exp-toggle" data-bs-toggle="collapse" href="#awardCollapse" role="tab" aria-expanded="false"
+                    aria-controls="awardCollapse"
+                    style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--fg-muted); margin-bottom: 10px;">
+
+                    <span class="triangle">▶</span>
+                    Awards
+                </h3>
+
+
+                <div class="collapse pad-collapse" id="awardCollapse">
+
+                    <div class="bg-card-vertical">
+                        <div class="exp-left">
+                            <div class="exp-role">Champion (with the ESAIAS project)</div>
+                            <div class="exp-time"><em>AIREA 1st International Competition on AI in Education 2025 (Open
+                                    Category – Stream 3)</em></div>
+                        </div>
+                        <div><a class="link-btn"
+                                href="https://airea.eduhk.hk/competitions/airea-competition-2025/open-category/">Event
+                                page ↗</a></div>
+                    </div>
+
+
+                </div>
+
+                <!--        Project-->
+                <h3 class="exp-toggle" data-bs-toggle="collapse" href="#prjCollapse" role="tab" aria-expanded="false"
+                    aria-controls="prjCollapse"
+                    style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--fg-muted); margin-bottom: 10px;">
+
+                    <span class="triangle">▶</span>
+                    Projects
+                </h3>
+
+
+                <div class="collapse pad-collapse" id="prjCollapse">
+                    <div class="bg-card-vertical">
+                        <div class="exp-left">
+                            <div class="exp-role">ESAIAS</div>
+                            <div class="exp-time"><em>Leveraging the power of generative agents
+                                    to support adolescents facing social challenges</em></div>
+                        </div>
+                        <div>
+                            <a class="link-btn" href="https://chenli.me/esaias/">Website ↗</a>
+                            <a class="link-btn" href="https://www.youtube.com/watch?v=bTV6_ycRiVg">Demo ↗</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+            </section>
+
+
+
+            <footer style="display: flex; flex-wrap: wrap; gap: 10px 20px; font-size: 0.75rem; color: var(--fg-muted);">
+                <span>© 2026 Fu Zhang. All rights reserved.</span>
+                <span>Chinese font (<a href="">朱雀仿宋</a>) powered by <a href="">TrionesType </a> </span>
+            </footer>
+
+        </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div class="content">
-
-        <header>
-            <div class="name">
-                <ruby>
-                    <span style="font-family: 'Zhuque Fangsong (technical preview)';">张</span>
-                    <rp>(</rp>
-                    <rt>ZHANG</rt>
-                    <rp>)</rp> <span style="font-family: 'Zhuque Fangsong (technical preview)';">辅</span>
-                    <rp>(</rp>
-                    <rt>FU</rt>
-                    <rp>)</rp>
-                </ruby>
-            </div>
-            <p>
-                <span class="badge text-bg-primary">CAT PERSON</span>
-                <span class="badge text-bg-success">ENFP</span>
-            </p>
-            <!-- Tabs -->
-            <ul class="nav nav-tabs custom-tabs" id="introTabs" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="about-tab" data-bs-toggle="tab"
-                            data-bs-target="#about" type="button" role="tab">
-                        About Me
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="works-tab" data-bs-toggle="tab"
-                            data-bs-target="#works" type="button" role="tab">
-                        WORKS
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="hobbies-tab" data-bs-toggle="tab"
-                            data-bs-target="#hobbies" type="button" role="tab">
-                        Hobbies
-                    </button>
-                </li>
-            </ul>
-
-            <!-- Tab Content -->
-            <div class="tab-content custom-tab-content" id="introTabsContent">
-
-                <div class="tab-pane fade show active info-card" id="about" role="tabpanel">
-                    <p class="intro">
-                        Hi! I’m Jerry (ZHANG Fu), a PhD student at The Hong Kong Polytechnic University
-                        and a researcher in <span class="highlight">Human–Computer Interaction (HCI)</span>
-                        with strong software and electronics engineering experience. While having a general interest over
-                        a wide range of HCI topics, I am particularly passionate about
-                        <span class="highlight">HCI in clinical medicine and healthcare</span>, leveraging HCI power to bring
-                        a better life and intervention to those suffering from mental and physical issues.
-                    </p>
-                </div>
-                <div class="tab-pane fade info-card" id="works" role="tabpanel">
-                    <p class="intro">
-                        My work currently focus on HCI driven mental interventions
-                    </p>
-                    <p class="intro">
-                        In the past, I have worked with human robot interactions, HCI for accessibility.
-                    </p>
-                </div>
-
-                <div class="tab-pane fade info-card" id="hobbies" role="tabpanel">
-                    <p class="intro">
-                        I enjoy playing music instruments as well, specifically, <span class="highlight">piano, clarinet and harmonica</span>.
-                    </p>
-                </div>
-
-            </div>
-            <div class="links">
-                <a class="link-icon" href="https://github.com/nablafx" target="_blank" aria-label="GitHub">
-                    <img src="assets/svg/github.svg" alt="">
-                </a>
-
-                <a class="link-icon" href="https://www.linkedin.com/in/fuzhang049/" target="_blank" aria-label="LinkedIn">
-                    <img src="assets/svg/linkedin.svg" alt="">
-                </a>
-
-                <a class="link-icon" href="https://orcid.org/0009-0001-8506-7321" target="_blank" aria-label="CV">
-                    <img src="assets/svg/orcid.svg" alt="">
-                </a>
-
-                <a class="link-icon" href="mailto:jerry-fu.zhang@polyu.edu.hk" aria-label="Email">
-                    <img src="assets/svg/email.svg" alt="">
-                </a>
-            </div>
-
-        </header>
-
-<!--        Experience-->
-        <section>
-            <h3 class="exp-toggle"
-                data-bs-toggle="collapse"
-                href="#experienceCollapse"
-                role="tab"
-                aria-expanded="true"
-                aria-controls="experienceCollapse"
-                style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--fg-muted); margin-bottom: 10px;">
-
-                <span class="triangle">▶</span>
-                Experience
-            </h3>
-
-            <div class="collapse pad-collapse show" id="experienceCollapse">
-
-                <div class="bg-card">
-                    <div class="exp-left">
-                        <div class="exp-role">Research Assistant</div>
-                        <div class="exp-time">2024 — 2025</div>
-                    </div>
-                    <div>The Hong Kong Polytechnic University</div>
-                </div>
-
-                <div class="bg-card">
-                    <div class="exp-left">
-                        <div class="exp-role">Software Engineer</div>
-                        <div class="exp-time">2021 - 2023</div>
-                    </div>
-                    <div>Huawei Technologies Co., Ltd</div>
-                </div>
-
-            </div>
-
-            <!--        Education-->
-            <h3 class="exp-toggle"
-                data-bs-toggle="collapse"
-                href="#educationCollapse"
-                role="tab"
-                aria-expanded="true"
-                aria-controls="educationCollapse"
-                style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--fg-muted); margin-bottom: 10px;">
-
-                <span class="triangle">▶</span>
-                Education
-            </h3>
-
-
-            <div class="collapse pad-collapse show" id="educationCollapse">
-
-                <div class="bg-card">
-                    <div class="exp-left">
-                        <div class="exp-role">PhD in Computing</div>
-                        <div class="exp-time">2025 — Present</div>
-                    </div>
-                    <div>The Hong Kong Polytechnic University</div>
-                </div>
-
-                <div class="bg-card">
-                    <div class="exp-left">
-                        <div class="exp-role">MSc in Advanced Computing</div>
-                        <div class="exp-time">(awarded with distinction, GPA 4/4) <br/> 2020 — 2021</div>
-                    </div>
-                    <div>King's College London</div>
-                </div>
-
-                <div class="bg-card">
-                    <div class="exp-left">
-                        <div class="exp-role">BEng in Electronics and Information Engineering</div>
-                        <div class="exp-time">(awarded with first class, GPA 3.7/4) <br/> 2017 — 2020</div>
-                    </div>
-                    <div>King's College London</div>
-                </div>
-
-            </div>
-
-
-            <!--        Award-->
-            <h3 class="exp-toggle"
-                data-bs-toggle="collapse"
-                href="#awardCollapse"
-                role="tab"
-                aria-expanded="false"
-                aria-controls="awardCollapse"
-                style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--fg-muted); margin-bottom: 10px;">
-
-                <span class="triangle">▶</span>
-                Awards
-            </h3>
-
-
-            <div class="collapse pad-collapse" id="awardCollapse">
-
-                <div class="bg-card-vertical">
-                    <div class="exp-left">
-                        <div class="exp-role">Champion (with the ESAIAS project)</div>
-                        <div class="exp-time"><em>AIREA 1st International Competition on AI in Education 2025 (Open Category – Stream 3)</em></div>
-                    </div>
-                    <div><a class="link-btn" href="https://airea.eduhk.hk/competitions/airea-competition-2025/open-category/">Event page ↗</a></div>
-                </div>
-
-
-            </div>
-
-            <!--        Project-->
-            <h3 class="exp-toggle"
-                data-bs-toggle="collapse"
-                href="#prjCollapse"
-                role="tab"
-                aria-expanded="false"
-                aria-controls="prjCollapse"
-                style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--fg-muted); margin-bottom: 10px;">
-
-                <span class="triangle">▶</span>
-                Projects
-            </h3>
-
-
-            <div class="collapse pad-collapse" id="prjCollapse">
-                <div class="bg-card-vertical">
-                    <div class="exp-left">
-                        <div class="exp-role">ESAIAS</div>
-                        <div class="exp-time"><em>Leveraging the power of generative agents
-                            to support adolescents facing social challenges</em></div>
-                    </div>
-                    <div>
-                        <a class="link-btn" href="https://chenli.me/esaias/">Website ↗</a>
-                        <a class="link-btn" href="https://www.youtube.com/watch?v=bTV6_ycRiVg">Demo ↗</a>
-                    </div>
-                </div>
-
-
-            </div>
-
-
-
-
-        </section>
-
-
-
-        <footer style="display: flex; flex-wrap: wrap; gap: 10px 20px; font-size: 0.75rem; color: var(--fg-muted);">
-            <span>© 2026 Fu Zhang. All rights reserved.</span>
-            <span>Chinese font (<a href="">朱雀仿宋</a>) powered by <a href="">TrionesType </a> </span>
-        </footer>
-
-    </div>
-</div>
 </body>
+
 </html>
